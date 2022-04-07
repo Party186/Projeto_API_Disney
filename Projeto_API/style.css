@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu{
+    height: 8%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    background-image: linear-gradient( to right, rgb(179, 35, 131), rgb(63, 63, 202));
+}
+#logo img{
+    position: absolute;
+    left: 40vw;
+    top: 4vw;
+    height: 10vw;
+}
+#img{
+    position: fixed;
+}
+body{
+    background-color: #ffffff;
+}
+#botao button{
+    position: relative;
+    width: 10vw;
+    height: 13vw;
+    top: 20vw;
+    left: 10vw;
+    border-collapse: collapse;
+    cursor: pointer;
+    border-radius: 2vw;
+    font-size: 4vw;
+    width: 40vw;
+}
+button:hover{
+    box-shadow: 2px 2px #000000;
+    background-color: rgb(226, 150, 201);
+}
+#esc{
+    top: 30vw;
+    position: fixed;
+    left: 62.5vw;
+}
+h2{
+    top: 20vw;
+    position: fixed;
+    color: rgb(226, 119, 226);
+    font-size: 3vw;
+    left: 60vw;
+    font-family: monospace;
+    text-align: center;
+}
+input{
+    width: 15vw;
+    height: 4.5vw;
+    text-align: center;
+    border-radius: 2vw;
+    right: 5vw;
+}
+#add{
+    height: 5.5vw;
+    left: 22vw;
+    border-radius: 1vw;
+}
+#tab{
+    text-align: center;
+    font-size: 15px;
+    position: fixed;
+    top: 40vw;
+    left: 61vw;
+    background-color:  rgb(236, 177, 236);
+    border-collapse: collapse;
+    width: 35vw;
+}
+#tab th{
+    width: 35vw;
+}
+#frases{
+    font-size: 3vw;
+    position: relative;
+    top: 20vw;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+    right: 17vw;
+}
+#imagens{
+    top: 12vw;
+    padding-top: 12vw;
+    width: 35vw;
+    height: 45vw;
+    left: 15vw;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 3vw;
+    background-image: linear-gradient( to right, rgba(179, 35, 131, 0.329), rgba(63, 63, 202, 0.301));
+}
+@media only screen and (min-width: 250px) and (max-device-height: 700px){
+    h2{
+        font-size: 4vw;
+    }
+    #esc{
+        top: 35vw;
+        left: 60vw;
+    }
+    #tab{
+        width: 50vw;
+        left: 50vw;
+        top:50vw;
+    }
+    #tab th{
+        width: 50vw;
+        font-size: 5vw;
+        top: 50vw;
+    }
+    #tab tr{
+        font-size: 3.2vw;
+        width: 20vw;
+    }
+}
+@media only screen and (min-width: 380px) and (min-device-height: 670px){
+    #menu{
+        height: 14%;
+    }
+    #botao button{
+        top: 28vw;
+    }
+    h2{
+        font-size: 5vw;
+    }
+    #esc{
+        top: 40vw;
+        left: 67vw;
+    } 
+    #tab th{
+        font-size: 5vw;
+        top: 50vw;
+    }
+    #tab tr{
+        font-size: 3vw;
+    }
+    input{
+        height: 5vw;
+    }
+}
+@media only screen and (min-width: 300px) and (max-device-height: 1000px){
+    #menu{
+        height: 8%;
+    }
+    #esc{
+        top: 40vw;
+        left: 64vw;
+    }
+    #tab{
+        top: 47vw;
+    }
+    input{
+        height: 5vw;
+        width: 15vw;
+    }
+}
+@media only screen and (min-width: 800px) and (max-device-height: 1400px){
+    #logo img{
+        top: 1vw;
+    }
+    #botao button{
+        font-size: 2.5vw;
+        height: 8vw;
+        top: 18vw;
+    }
+    #menu{
+        height: 22%;
+    }
+    input{
+        font-size: 2vw;
+        width: 22vw;
+    }
+    #add{
+        font-size: 1.4vw;
+        width: 10vw;
+    }
+    #tab th{
+        font-size: 3vw;
+        top: 50vw;
+    }
+    #tab tr{
+        font-size: 2vw;
+    }
+    #frases{
+        font-size: 2vw;
+    }
+}
+@media only screen and (min-width: 500px) and (max-device-height: 1200px){
+    #menu{
+        height: 15%;
+    }
+    h2{
+        top: 25vw
+    }
+    #esc{
+        top: 50vw;
+        left: 65vw;
+    }
+    #tab{
+        top: 65vw;
+    }
+    #botao button{
+        top: 30vw;
+    }
+}
+@media only screen and (min-width: 800px) and (max-device-height: 1500px){
+    #menu{
+        height: 10%;
+    }
+    #tab{
+        top: 55vw;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-device-height: 5000px){
+    #menu{
+        height: 8vw;
+    }
+    #logo img{
+        height: 5vw;
+        top: 1vw;
+    }
+    #botao button{
+        font-size: 1.5vw;
+        height: 3vw;
+        top: 20vw;
+    }
+    h2{
+        font-size: 3vw;
+        top: 18vw;
+    }
+    #esc{
+        top: 25vw;
+    }
+    input{
+        font-size: 1vw;
+        width: 22vw;
+        height: 2vw;
+    }
+    #add{
+        font-size: 1vw;
+        width: 10vw;
+        height: 2.5vw;
+    }
+    #tab{
+        top: 30vw;
+    }
+    #tab th{
+        font-size: 2vw;
+        top: 10vw;
+    }
+    #tab tr{
+        font-size: 1.5vw;
+    }
+    #frases{
+        right: 24vw;
+        font-size: 1.2vw;
+    }
+    #imagens{
+        width: 20vw;
+        height: 30vw;
+    }
+}
